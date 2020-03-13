@@ -24,37 +24,24 @@
               <div class="box-body">
                 <div class="col-lg-12">
                   <label for="exampleInputEmail1">ชื่อ สกุล</label>
-                  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="ชื่อ สกุล">
+                  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="ชื่อ สกุล"><br/>
                 </div>
                 <div class="col-lg-6">
                   <label for="exampleInputEmail1">วัน เดือน ปีเกิด</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="วัน เดือน ปีเกิด">
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="วัน เดือน ปีเกิด"><br/>
                 </div>
+
                 <div class="col-lg-6">
-                  <label for="exampleInputEmail1">เพศ</label>
-                    <div class="form-group">
-                      <div class="radio">
-                        <label>
-                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>ชาย
-                        </label>
-                        <label>
-                          <input type="radio" name="optionsRadios" id="optionsRadios" value="option1" checked>หญิง
-                        </label>
-                      </div>
-                    </div>
-                </div>       
-               
-                <div class="col-lg-12">
                   <label for="exampleInputPassword1">สโมสร</label>
-                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="สโมสร">
+                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="สโมสร"><br/>
                 </div>
                 <div class="col-lg-6">
                   <label for="exampleInputPassword1">โทร</label>
-                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="โทร">
+                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="โทร"><br/>
                 </div>
                 <div class="col-lg-6">
                   <label for="exampleInputPassword1">line ID</label>
-                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="id">
+                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="id"><br/>
                 </div>
                 <div class="col-lg-12">
                   <label>รุ่น</label>
@@ -93,7 +80,7 @@
                     <label>
                       <input type="checkbox">รุ่นอายุไม่เกิน 16 ปี (U17) เกิดปีพศ.
                     </label>
-                  </div>
+                  </div><br/>
                 </div>
 
                 <div class="col-lg-6">
