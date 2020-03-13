@@ -31,14 +31,20 @@
                     <input type="text" class="form-control" id="exampleInputPassword1" placeholder="วัน เดือน ปีเกิด">
                 </div>
                 <div class="col-lg-6">
-                  <label for="exampleInputEmail1">อายุ</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="อายุ">
+                  <label for="exampleInputEmail1">เพศ</label>
+                    <div class="form-group">
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>ชาย
+                        </label>
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios" value="option1" checked>หญิง
+                        </label>
+                      </div>
+                    </div>
                 </div>       
-                <div class="col-lg-6">
-                  <label for="exampleInputPassword1">ทีม</label>
-                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="ทีม">
-                </div>
-                <div class="col-lg-6">
+               
+                <div class="col-lg-12">
                   <label for="exampleInputPassword1">สโมสร</label>
                   <input type="text" class="form-control" id="exampleInputPassword1" placeholder="สโมสร">
                 </div>
@@ -57,6 +63,71 @@
                     <option>รุ่นประชาชน</option>
                   </select>
                 </div>
+                <div class="col-lg-12">
+                  <label for="exampleInputPassword1">ประเภทการแข่งขัน</label>
+                </div>
+
+                <div class="col-lg-6">
+                  <label for="exampleInputPassword1">ประเภทการแข่งขันเดี่ยว</label>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">รุ่นอายุไม่เกิน 8 ปี (U9) เกิดปีพศ.
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">รุ่นอายุไม่เกิน 10 ปี (U11) เกิดปีพศ.
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">รุ่นอายุไม่เกิน 12 ปี (U13) เกิดปีพศ.
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">รุ่นอายุไม่เกิน 14 ปี (U15) เกิดปีพศ.
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">รุ่นอายุไม่เกิน 16 ปี (U17) เกิดปีพศ.
+                    </label>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <label for="exampleInputPassword1">ประเภทการแข่งขันคู่</label>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">รุ่นอายุไม่เกิน 8 ปี (U9) เกิดปีพศ.
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">รุ่นอายุไม่เกิน 10 ปี (U11) เกิดปีพศ.
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">รุ่นอายุไม่เกิน 12 ปี (U13) เกิดปีพศ.
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">รุ่นอายุไม่เกิน 14 ปี (U15) เกิดปีพศ.
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">รุ่นอายุไม่เกิน 16 ปี (U17) เกิดปีพศ.
+                    </label>
+                  </div>
+                </div>
+
+
+
+                
                 <!-- <div class="form-group">
                   <label for="exampleInputFile">File input</label>
                   <input type="file" id="exampleInputFile">
