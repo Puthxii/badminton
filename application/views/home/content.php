@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
  <!-- Content Wrapper. Contains page content -->
  <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -112,7 +114,69 @@
                   </div>
                 </div>
 
+                <div class="col-lg-12">
+                  <label>ประเภทรุ่นการแข่งขัน</label>
+                  <select class="form-control">
+                    <option>ประเภทคู่ รุ่นมือ N มือใหม่</option>
+                    <option>ประเภทคู่ รุ่นมือ S- มือสมัครเล่น(ใหม่)</option>
+                    <option>ประเภทคู่ รุ่นมือ S+ มือสมัครเล่น(เก่า)</option>
+                    <option>ประเภทคู่ รุ่นมือ P- ประชาชนทั่วไป</option>
+                    <option>ประเภทคู่ รุ่นมือ P+C ประชาชนมือแข่งขัน/นักกีฬา</option>
+                  </select>
+                </div>
+                  <div class="checkbox">
+                  <label for="exampleInputEmail1">ชื่อทีม</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="ชื่อทีม"><br/>
+                </div>
 
+                <div class="alert alert-primary" role="alert">
+                นักกีฬาคนที่ 1
+                </div>
+                <div class="col-lg-6">
+                  <label for="exampleInputPassword1">ชื่อ นามสกุล</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="ชื่อ นามสกุล"><br/>
+                </div>
+                <div class="col-lg-6">
+                  <label for="exampleInputPassword1">ชื่อเล่น</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="ชื่อเล่น"><br/>
+                </div>
+                <div class="col-lg-6">
+                  <label for="exampleInputEmail1">วัน เดือน ปีเกิด</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="วัน เดือน ปีเกิด"><br/>
+                </div>
+                <div class="col-lg-6">
+                  <label for="exampleInputEmail1">เพศ</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="เพศ"><br/>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">ประวัติการแข่งขันในปีล่าสุดหรือผลงานที่ผ่านมาของนักกีฬาคนที่ 1</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+
+                <div class="alert alert-primary" role="alert">
+                นักกีฬาคนที่ 2
+                </div>
+                <div class="col-lg-6">
+                  <label for="exampleInputPassword1">ชื่อ นามสกุล</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="ชื่อ นามสกุล"><br/>
+                </div>
+                <div class="col-lg-6">
+                  <label for="exampleInputPassword1">ชื่อเล่น</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="ชื่อเล่น"><br/>
+                </div>
+                <div class="col-lg-6">
+                  <label for="exampleInputEmail1">วัน เดือน ปีเกิด</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="วัน เดือน ปีเกิด"><br/>
+                </div>
+                <div class="col-lg-6">
+                  <label for="exampleInputEmail1">เพศ</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="เพศ"><br/>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">ประวัติการแข่งขันในปีล่าสุดหรือผลงานที่ผ่านมาของนักกีฬาคนที่ 1</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
 
                 
                 <!-- <div class="form-group">
