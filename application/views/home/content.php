@@ -1,6 +1,4 @@
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
- <!-- Content Wrapper. Contains page content -->
+<!-- Content Wrapper. Contains page content -->
  <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
@@ -124,14 +122,14 @@
                     <option>ประเภทคู่ รุ่นมือ P+C ประชาชนมือแข่งขัน/นักกีฬา</option>
                   </select>
                 </div>
-                  <div class="checkbox">
+
+                <div class="col-lg-12">
                   <label for="exampleInputEmail1">ชื่อทีม</label>
                   <input type="text" class="form-control" id="exampleInputEmail1" placeholder="ชื่อทีม"><br/>
                 </div>
 
-                <div class="alert alert-primary" role="alert">
-                นักกีฬาคนที่ 1
-                </div>
+                <h3> นักกีฬาคนที่ 1</h3>
+
                 <div class="col-lg-6">
                   <label for="exampleInputPassword1">ชื่อ นามสกุล</label>
                   <input type="text" class="form-control" id="exampleInputPassword1" placeholder="ชื่อ นามสกุล"><br/>
@@ -148,15 +146,14 @@
                   <label for="exampleInputEmail1">เพศ</label>
                     <input type="text" class="form-control" id="exampleInputPassword1" placeholder="เพศ"><br/>
                 </div>
-                <div class="form-group">
+                <div class="col-lg-12">
                     <label for="exampleFormControlTextarea1">ประวัติการแข่งขันในปีล่าสุดหรือผลงานที่ผ่านมาของนักกีฬาคนที่ 1</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
 
 
-                <div class="alert alert-primary" role="alert">
-                นักกีฬาคนที่ 2
-                </div>
+                <h3>นักกีฬาคนที่ 2</h3>
+
                 <div class="col-lg-6">
                   <label for="exampleInputPassword1">ชื่อ นามสกุล</label>
                   <input type="text" class="form-control" id="exampleInputPassword1" placeholder="ชื่อ นามสกุล"><br/>
@@ -173,8 +170,8 @@
                   <label for="exampleInputEmail1">เพศ</label>
                     <input type="text" class="form-control" id="exampleInputPassword1" placeholder="เพศ"><br/>
                 </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">ประวัติการแข่งขันในปีล่าสุดหรือผลงานที่ผ่านมาของนักกีฬาคนที่ 1</label>
+                <div class="col-lg-12">
+                    <label for="exampleFormControlTextarea1">ประวัติการแข่งขันในปีล่าสุดหรือผลงานที่ผ่านมาของนักกีฬาคนที่ 2</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
 
