@@ -22,9 +22,14 @@
                     <!-- form start -->
                     <form role="form" id="regis-compet">
                         <div class="box-body">
-                            <div class="col-lg-12">
-                                <label for="P_name">ชื่อ สกุล<sup class="error">*</sup></label>
-                                <input type="text" class="form-control" id="P_name" name="P_name" placeholder="ชื่อ สกุล" required>
+                            <div class="col-lg-6">
+                                <label for="P_name">ชื่อ<sup class="error">*</sup></label>
+                                <input type="text" class="form-control" id="P_name" name="P_name" placeholder="ชื่อ" required>
+                                <br/>
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="P_name">นามสกุล<sup class="error">*</sup></label>
+                                <input type="text" class="form-control" id="P_name" name="P_name" placeholder="นามสกุล" required>
                                 <br/>
                             </div>
                             <div class="col-lg-6">
@@ -138,13 +143,13 @@
                             <h3> นักกีฬาคนที่ 1</h3>
 
                             <div class="col-lg-6">
-                                <label for="name1">ชื่อ นามสกุล<sup class="error">*</sup></label>
-                                <input type="text" class="form-control" id="name1" name="name1" placeholder="ชื่อ นามสกุล" required>
+                                <label for="name1">ชื่อ<sup class="error">*</sup></label>
+                                <input type="text" class="form-control" id="name1" name="name1" placeholder="ชื่อ" required>
                                 <br/>
                             </div>
                             <div class="col-lg-6">
-                                <label for="nickname1">ชื่อเล่น<sup class="error">*</sup></label>
-                                <input type="text" class="form-control" id="nickname1" name="nickname1" placeholder="ชื่อเล่น" required>
+                                <label for="nickname1">นามสกุล<sup class="error">*</sup></label>
+                                <input type="text" class="form-control" id="nickname1" name="nickname1" placeholder="นามสกุล" required>
                                 <br/>
                             </div>
                             <div class="col-lg-6">
@@ -165,13 +170,13 @@
                             <h3>นักกีฬาคนที่ 2</h3>
 
                             <div class="col-lg-6">
-                                <label for="name2">ชื่อ นามสกุล<sup class="error">*</sup></label>
-                                <input type="text" class="form-control" id="name2" name="name2" placeholder="ชื่อ นามสกุล" required>
+                                <label for="name1">ชื่อ<sup class="error">*</sup></label>
+                                <input type="text" class="form-control" id="name1" name="name1" placeholder="ชื่อ" required>
                                 <br/>
                             </div>
                             <div class="col-lg-6">
-                                <label for="nickname2">ชื่อเล่น<sup class="error">*</sup></label>
-                                <input type="text" class="form-control" id="nickname2" name="nickname2" placeholder="ชื่อเล่น" required>
+                                <label for="nickname1">นามสกุล<sup class="error">*</sup></label>
+                                <input type="text" class="form-control" id="nickname1" name="nickname1" placeholder="นามสกุล" required>
                                 <br/>
                             </div>
                             <div class="col-lg-6">
