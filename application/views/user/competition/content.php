@@ -168,6 +168,20 @@
                             </div>
 
                             <h3>นักกีฬาคนที่ 2</h3>
+                            <label for="search">ค้นหานักกีฬาคนที่ 2<sup class="error"></sup></label>
+                            <form class="search-form">
+                            <div class="col-lg-12">
+                                <div class="input-group">
+                                    <input type="text" name="search" class="form-control" placeholder="Search"><br/>
+                                    <div class="input-group-btn">
+                                        <button type="submit" name="submit" class="btn btn-warning btn-flat">
+                                            <i class="glyphicon glyphicon-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>                   
+                            </form>
+                            
 
                             <div class="col-lg-6">
                                 <label for="name1">ชื่อ<sup class="error">*</sup></label>
