@@ -1,7 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class RegisterCompetition extends CI_Controller {
+class RegisterCompetition extends BD_Controller {
+	public function __construct()
+    {
+		parent::__construct();
+		$this->isLoggedIn();
+	}
 
 	public function index()
 	{

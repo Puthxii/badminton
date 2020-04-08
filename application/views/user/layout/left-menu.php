@@ -14,7 +14,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class="active"><a href="<?php echo base_url(); ?>editCompetition"><i class="fa fa-circle-o"></i>Edit</a></li>
+            <li class="active"><a href="<?php echo base_url(); ?>RegisterCompetition/editCompetition"><i class="fa fa-circle-o"></i>Edit</a></li>
             <li><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
           </ul>
         </li>
