@@ -29,38 +29,48 @@
             <div class="box-body table-responsive no-padding">
               <table class="table table-hover">
                 <tbody><tr>
-                  <th>ID</th>
+                  <th>ลำดับ</th>
                   <th>ชื่อ - สกุล</th>
                   <th>วันที่</th>
-                  <th>ประเภทการแข่งขัน</th>
+                  <th>รุ่นการการแข่งขัน</th>
+                  <th>ประเภทมือ</th>
+                  <th>อายุ</th>
                   <th>สถานะ</th>
                 </tr>
                 <tr>
-                  <td>183</td>
+                  <td>13</td>
                   <td>สมชาย เกิดก้อง</td>
-                  <td>11-7-2020</td>
-                  <td>ประเภทเยาวชน</td>
+                  <td>15-03-2020</td>
+                  <td>รุ่นเยาวชน</td>
+                  <td>มือ N</td>
+                  <td>16</td>
                   <td><span class="label label-success">Approved</span></td>
                 </tr>
                 <tr>
-                  <td>219</td>
+                  <td>14</td>
                   <td>บุรินทร์ พันธ์ชาติ</td>
-                  <td>11-7-2020</td>
-                  <td>ประเภทเยาวชน</td>
+                  <td>15-03-2020</td>
+                  <td>รุ่นประชาชน</td>
+                  <td>มือ N</td>
+                  <td>21</td>
                   <td><span class="label label-warning">Pending</span></td>
                 </tr>
                 <tr>
-                  <td>657</td>
+                  <td>17</td>
                   <td>ธีนพัฒ์ รัตนวงศ์</td>
-                  <td>11-7-2020</td>
-                  <td>ประเภทประชาชน</td>
+                  <td>16-03-2020</td>
+                  <td>รุ่นประชาชน</td>
+                  <td>มือ P</td>
+                  <td>21</td>
                   <td><span class="label label-success">Approved</span></td>
                 </tr>
                 <tr>
-                  <td>175</td>
+                  <td>19</td>
                   <td>จินนา วันดี</td>
-                  <td>11-7-2020</td>
-                  <td>ประเภทประชาชน</td>
+                  <td>17-03-2020</td>
+                  <td>รุ่นเยาวชน</td>
+                  <td>มือ S</td>
+                  <td>16</td>
                   <td><span class="label label-danger">Denied</span></td>
                 </tr>
               </tbody></table>
