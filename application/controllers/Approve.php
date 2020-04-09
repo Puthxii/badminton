@@ -10,12 +10,12 @@ class Approve extends BD_Controller {
 
 	public function index()
 	{
-        $this->load->view('admin/layout/head');
-		$this->load->view('admin/layout/header');
-		$this->load->view('admin/layout/left-menu');
+        $this->load->view('admin/competition/layout/head');
+		$this->load->view('admin/competition/layout/header');
+		$this->load->view('admin/competition/layout/left-menu');
 		$this->load->view('admin/competition/content');
-		$this->load->view('admin/layout/footer');
-		$this->load->view('admin/layout/foot');	
+		$this->load->view('admin/competition/layout/footer');
+		$this->load->view('admin/competition/layout/foot');	
 	}
 
 }

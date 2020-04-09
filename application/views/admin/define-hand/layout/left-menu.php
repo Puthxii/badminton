@@ -14,8 +14,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class="active"><a href="<?php echo base_url(); ?>editCompetition"><i class="fa fa-circle-o"></i>Edit</a></li>
-            <li><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+            <li ><a href="<?php echo base_url(); ?>approve"><i class="fa fa-circle-o"></i>Approve</a></li>
+            <li class="active"><a href="<?php echo base_url(); ?>definehand"><i class="fa fa-circle-o"></i>Define hand</a></li>
           </ul>
         </li>
       </ul>
