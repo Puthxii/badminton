@@ -14,7 +14,11 @@
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">กำหนดมือวาง###############!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! #แก้ๆๆๆๆ</h3>
+              <h1 class="box-title">กำหนดมือวาง</h1><br/><br/>
+              <h3 class="box-title">รายชื่อผู้เข้าแข่งขัน รุ่น :รประชาชน ประเภท :มือ N</h3><br/>
+              <h3 class="box-title">การแข่งขันแบดมินตัน :ยืดเส้นสู้โควิด-19</h3>
+
+
               <div class="box-tools">
                 <div class="input-group input-group-sm hidden-xs" style="width: 150px;">
                   <input type="text" name="table_search" class="form-control pull-right" placeholder="Search">
@@ -29,40 +33,49 @@
             <div class="box-body table-responsive no-padding">
               <table class="table table-hover">
                 <tbody><tr>
-                  <th>ID</th>
+                  <th>ลำดับ</th>
+                  <th>สังกัด</th>
                   <th>ชื่อ - สกุล</th>
-                  <th>วันที่</th>
-                  <th>ประเภทการแข่งขัน</th>
-                  <th>สถานะ</th>
+                  <th>ประวัติการแข่งขัน</th>
+                  <th>มือวาง</th>
                 </tr>
+                <tr">
+                  <td align="center">1</td>
+                  <td >Fertig<br/><br/>Plus+</td>
+                  <td>ปัญญพัฒน์ เจือบุญ<br/><br/>เก็จมณี ทองใบ</td>
+                  <td>การแข่งขันกีฬาแห่งชาติ ครั้งที่ 47 รางวัลรองชนะเลิศอันดับ 1 <br/><br/>Bangkok Badminton 2020 รางวัลชนะเลิศอันดับ 1</td>
+                  <td>มือวางอันดับ 2 <br/><br/> มือวางอันดับ 1</td>
+                </tr"> 
                 <tr>
-                  <td>183</td>
-                  <td>สมชาย เกิดก้อง</td>
-                  <td>11-7-2020</td>
-                  <td>ประเภทเยาวชน</td>
-                  <td><span class="label label-success">Approved</span></td>
+                  <td align="center">2</td>
+                  <td>Plus+<br/><br/>Get Start</td>
+                  <td>ธีนพัฒน์ รัตนวงศ์<br/><br/>บุรินทร์ พันธ์ชาติ</td>
+                  <td>กีฬาสาธิตสามัคคีครั้งที่ 45 "พิบูลบำเพ็ญเกมส์" รางวัลรองชนะเลิศอันดับ 1 <br/><br/>Bangkok Badminton 2020 รางวัลรองชนะเลิศอันดับ 1</td>
+                  <td>มือวางอันดับ 2 <br/><br/> มือวางอันดับ 2</td>
                 </tr>
-                <tr>
+
+                
+                <!-- <tr>
                   <td>219</td>
                   <td>บุรินทร์ พันธ์ชาติ</td>
                   <td>11-7-2020</td>
                   <td>ประเภทเยาวชน</td>
-                  <td><span class="label label-warning">Pending</span></td>
-                </tr>
-                <tr>
+                  <td>มือวางอันดับ 2</td>
+                </tr> -->
+                <!-- <tr>
                   <td>657</td>
                   <td>ธีนพัฒ์ รัตนวงศ์</td>
                   <td>11-7-2020</td>
                   <td>ประเภทประชาชน</td>
-                  <td><span class="label label-success">Approved</span></td>
+                  <td>มือวางอันดับ 2</td>
                 </tr>
                 <tr>
                   <td>175</td>
                   <td>จินนา วันดี</td>
                   <td>11-7-2020</td>
                   <td>ประเภทประชาชน</td>
-                  <td><span class="label label-danger">Denied</span></td>
-                </tr>
+                  <td>มือวางอันดับ 2</td>
+                </tr> -->
               </tbody></table>
             </div>
             <!-- /.box-body -->
