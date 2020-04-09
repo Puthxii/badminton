@@ -16,15 +16,20 @@
                 <!-- general form elements -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <h3 class="box-title">สมัครการแข่งขัน</h3>
+                        <h3 class="box-title">แก้ไขข้อมูการสมัครการแข่งขัน</h3>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
                     <form role="form" id="regis-compet">
                         <div class="box-body">
-                            <div class="col-lg-12">
-                                <label for="P_name">ชื่อ สกุล<sup class="error">*</sup></label>
-                                <input type="text" class="form-control" id="P_name" name="P_name" placeholder="ชื่อ สกุล" required>
+                            <div class="col-lg-6">
+                                <label for="P_name">ชื่อ<sup class="error">*</sup></label>
+                                <input type="text" class="form-control" id="P_name" name="P_name" placeholder="ชื่อ" required>
+                                <br/>
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="P_name">นามสกุล<sup class="error">*</sup></label>
+                                <input type="text" class="form-control" id="P_lastname" name="P_lastname" placeholder="นามสกุล" required>
                                 <br/>
                             </div>
                             <div class="col-lg-6">
@@ -212,7 +217,6 @@
     <!-- /.content -->
     </div>
     <!-- /.content-wrapper -->
-
     <script>
         $(function() {
 
@@ -262,25 +266,3 @@
             });
 
         });
-
-        // var regis_compet = $("#regis-compet").val();
-        // $("#gen").hide();
-        // $("#regis-compet").change(function (e) { 
-        //   e.preventDefault();
-        //   compet_type = $("#compet_type").val();
-        // });
-
-        // function option(){
-        //   if(compet_type == "youth"){
-        //     $("#compet_gen").empty();
-        //     $("#compet_gen").html( "<option value = 'U9'>U9</option><option value = 'U11'>U11</option><option value = 'U13'>U13</option><option value = 'U15'>U15</option><option value = 'U17'>U17</option>" );
-        //   }
-        //   else if(compet_type == "people"){
-        //     $("#compet_gen").empty();
-        //     $("#compet_gen").html("<option value = 'N'>N</option><option value = 'S-'>S-</option><option value = 'S+'>S+</option><option value = 'P-'>P-</option><option value = 'P+C'>P+C</option>");
-        //   }
-        //   else{
-        //     $("#gen").hide();
-        //   }
-        // }
-    </script>
