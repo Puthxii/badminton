@@ -14,9 +14,9 @@
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header">
-              <h1 class="box-title">กำหนดมือวาง</h1><br/><br/>
-              <h3 class="box-title">รายชื่อผู้เข้าแข่งขัน รุ่น :รประชาชน ประเภท :มือ N</h3><br/>
-              <h3 class="box-title">การแข่งขันแบดมินตัน :ยืดเส้นสู้โควิด-19</h3>
+              <h3 class="box-title">กำหนดมือวาง</h3><br/><br/>
+              <h1 class="box-title">รายชื่อผู้เข้าแข่งขัน รุ่น :รประชาชน ประเภท :มือ N</h1><br/>
+              <h1 class="box-title">การแข่งขันแบดมินตัน :ยืดเส้นสู้โควิด-19</h1>
 
 
               <div class="box-tools">
@@ -77,6 +77,9 @@
                   <td>มือวางอันดับ 2</td>
                 </tr> -->
               </tbody></table>
+              <div class="box-footer">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
             </div>
             <!-- /.box-body -->
           </div>
