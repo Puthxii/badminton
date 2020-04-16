@@ -93,8 +93,8 @@
         'txt-password' : "required"
       },
       messages:{
-        'txt-username' : "กรอก usernaem",
-        'txt-password' : "กรอก password"
+        'txt-username' : "กรอก อีเมล",
+        'txt-password' : "กรอก รหัสผ่าน"
       }
     });
 
