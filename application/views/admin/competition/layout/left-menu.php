@@ -8,7 +8,7 @@
         <li class="header"></li>
         <li class="active treeview">
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>เมณู</span>
+            <i class="fa fa-dashboard"></i> <span>เมนู</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
