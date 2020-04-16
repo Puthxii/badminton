@@ -3,7 +3,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-        กำหนดมือวางอันดับ
+        กำหนดสายการแข่งขัน
         <small>walailak university</small>
       </h1>
     </section>
@@ -13,9 +13,9 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="box">
-            <div class="box-header">
+            <!-- <div class="box-header">
               <h1 class="box-title">รายชื่อผู้เข้าแข่งขันรุ่น: รุ่นระชาชน ประเภท: มือ N</h1><br/>  
-            </div>
+            </div> -->
             <main id="tournament">
                 <ul class="round round-1">
                     <li class="spacer">&nbsp;</li>
