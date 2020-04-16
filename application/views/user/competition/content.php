@@ -28,8 +28,8 @@
                                 <br/>
                             </div>
                             <div class="col-lg-6">
-                                <label for="P_name">นามสกุล<sup class="error">*</sup></label>
-                                <input type="text" class="form-control" id="P_name" name="P_name" placeholder="นามสกุล" required>
+                                <label for="P_surname">นามสกุล<sup class="error">*</sup></label>
+                                <input type="text" class="form-control" id="P_surname" name="P_surname" placeholder="นามสกุล" required>
                                 <br/>
                             </div>
                             <div class="col-lg-6">
@@ -148,8 +148,8 @@
                                 <br/>
                             </div>
                             <div class="col-lg-6">
-                                <label for="nickname1">นามสกุล<sup class="error">*</sup></label>
-                                <input type="text" class="form-control" id="nickname1" name="nickname1" placeholder="นามสกุล" required>
+                                <label for="surname1">นามสกุล<sup class="error">*</sup></label>
+                                <input type="text" class="form-control" id="surname1" name="surname1" placeholder="นามสกุล" required>
                                 <br/>
                             </div>
                             <div class="col-lg-6">
@@ -189,8 +189,8 @@
                                 <br/>
                             </div>
                             <div class="col-lg-6">
-                                <label for="nickname1">นามสกุล<sup class="error">*</sup></label>
-                                <input type="text" class="form-control" id="nickname1" name="nickname1" placeholder="นามสกุล" required>
+                                <label for="surname2">นามสกุล<sup class="error">*</sup></label>
+                                <input type="text" class="form-control" id="surname2" name="surname2" placeholder="นามสกุล" required>
                                 <br/>
                             </div>
                             <div class="col-lg-6">
@@ -221,6 +221,7 @@
                         </div>
                         <!-- /.box-body -->
                         <div class="box-footer">
+                        <a href="<?php echo base_url('controllers/RegisterCompetition/index') ?>" type="button" class="btn btn-default">Cancel</a>
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
                     </form>
@@ -231,75 +232,4 @@
     <!-- /.content -->
     </div>
     <!-- /.content-wrapper -->
-
-    <script>
-        $(function() {
-
-            $('#regis-compet').validate({
-                rules: {
-
-                    'P_name': "required",
-                    'P_dob': "required",
-                    'club_name': "required",
-                    'phone_num': "required",
-                    'line': "required",
-                    'Comp_type': "required",
-                    't_name': "required",
-                    'name1': "required",
-                    'nickname1': "required",
-                    'dob1': "required",
-                    'gender1': "required",
-                    'his1': "required",
-                    'name2': "required",
-                    'nickname2': "required",
-                    'dob2': "required",
-                    'gender2': "required",
-                    'his2': "required",
-
-                },
-                messages: {
-
-                    'P_name': "กรอกชื่อผู้สมัครการแข่งขัน",
-                    'P_dob': "กรอก วัน/เดือน/ปี เกิด ผู้สมัครการแข่งขัน",
-                    'club_name': "กรอกชื่อสโมสรผู้สมัครการแข่งขัน",
-                    'phone_num': "กรอกเบอร์โทรผู้สมัครการแข่งขัน",
-                    'line': "กรอกไลน์ผู้สมัครการแข่งขัน",
-                    'Comp_type': "เลือกประเภทการแข่งขัน",
-                    't_name': "กรอกชื่อทีม",
-                    'name1': "กรอกชื่อนักกีฬาคนที่ 1",
-                    'nickname1': "กรอกชื่อเล่นนักกีฬาคนที่ 1",
-                    'dob1': "กรอก วัน/เดือน/ปี เกิด นักกีฬาคนที่ 1",
-                    'gender1': "กรอกเพศนักกีฬาคนที่ 1",
-                    'his1': "กรอกประวัติการแข่งขันนักกีฬาคนที่ 1",
-                    'name2': "กรอกชื่อนักกีฬาคนที่ 2",
-                    'nickname2': "กรอกชื่อเล่นนักกีฬาคนที่ 2",
-                    'dob2': "กรอก วัน/เดือน/ปี เกิด นักกีฬาคนที่ 2",
-                    'gender2': "กรอกเพศนักกีฬาคนที่ 2",
-                    'his2': "กรอกประวัติการแข่งขันนักกีฬาคนที่ 2",
-
-                }
-            });
-
-        });
-
-        // var regis_compet = $("#regis-compet").val();
-        // $("#gen").hide();
-        // $("#regis-compet").change(function (e) { 
-        //   e.preventDefault();
-        //   compet_type = $("#compet_type").val();
-        // });
-
-        // function option(){
-        //   if(compet_type == "youth"){
-        //     $("#compet_gen").empty();
-        //     $("#compet_gen").html( "<option value = 'U9'>U9</option><option value = 'U11'>U11</option><option value = 'U13'>U13</option><option value = 'U15'>U15</option><option value = 'U17'>U17</option>" );
-        //   }
-        //   else if(compet_type == "people"){
-        //     $("#compet_gen").empty();
-        //     $("#compet_gen").html("<option value = 'N'>N</option><option value = 'S-'>S-</option><option value = 'S+'>S+</option><option value = 'P-'>P-</option><option value = 'P+C'>P+C</option>");
-        //   }
-        //   else{
-        //     $("#gen").hide();
-        //   }
-        // }
-    </script>
+    
