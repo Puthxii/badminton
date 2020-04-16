@@ -12,7 +12,7 @@
     <section class="content">
         <div class="row">
             <!-- left column -->
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <!-- general form elements -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
@@ -22,23 +22,23 @@
                     <!-- form start -->
                     <form role="form" id="regis-compet">
                         <div class="box-body">
-                            <div class="col-lg-6">
+                            <div class="col-lg-3">
                                 <label for="P_name">ชื่อ<sup class="error">*</sup></label>
                                 <input type="text" class="form-control" id="P_name" name="P_name" placeholder="ชื่อ" required>
                                 <br/>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-3">
                                 <label for="P_surname">นามสกุล<sup class="error">*</sup></label>
                                 <input type="text" class="form-control" id="P_surname" name="P_surname" placeholder="นามสกุล" required>
                                 <br/>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-3">
                                 <label for="P_dob">วัน เดือน ปีเกิด<sup class="error">*</sup></label>
                                 <input type="text" class="form-control" id="P_dob" name="P_dob" placeholder="วัน เดือน ปีเกิด" required>
                                 <br/>
                             </div>
 
-                            <div class="col-lg-6">
+                            <div class="col-lg-3">
                                 <label for="club_name">สโมสร<sup class="error">*</sup></label>
                                 <input type="text" class="form-control" id="club_name" name="club_name" placeholder="สโมสร" required>
                                 <br/>
@@ -142,22 +142,22 @@
 
                             <h3> นักกีฬาคนที่ 1</h3>
 
-                            <div class="col-lg-6">
+                            <div class="col-lg-3">
                                 <label for="name1">ชื่อ<sup class="error">*</sup></label>
                                 <input type="text" class="form-control" id="name1" name="name1" placeholder="ชื่อ" required>
                                 <br/>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-3">
                                 <label for="surname1">นามสกุล<sup class="error">*</sup></label>
                                 <input type="text" class="form-control" id="surname1" name="surname1" placeholder="นามสกุล" required>
                                 <br/>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-3">
                                 <label for="dob1">วัน เดือน ปีเกิด<sup class="error">*</sup></label>
                                 <input type="text" class="form-control" id="dob1" name="dob1" placeholder="วัน เดือน ปีเกิด" required>
                                 <br/>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-3">
                                 <label for="gender1">เพศ<sup class="error">*</sup></label>
                                 <input type="text" class="form-control" id="gender1" name="gender1" placeholder="เพศ" required>
                                 <br/>
@@ -168,6 +168,7 @@
                             </div>
 
                             <h3>นักกีฬาคนที่ 2</h3>
+
                             <label for="search">ค้นหานักกีฬาคนที่ 2<sup class="error"></sup></label>
                             <form class="search-form">
                             <div class="col-lg-12">
@@ -183,22 +184,22 @@
                             </form>
                             
 
-                            <div class="col-lg-6">
+                            <div class="col-lg-3">
                                 <label for="name1">ชื่อ<sup class="error">*</sup></label>
                                 <input type="text" class="form-control" id="name1" name="name1" placeholder="ชื่อ" required>
                                 <br/>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-3">
                                 <label for="surname2">นามสกุล<sup class="error">*</sup></label>
                                 <input type="text" class="form-control" id="surname2" name="surname2" placeholder="นามสกุล" required>
                                 <br/>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-3">
                                 <label for="dob2">วัน เดือน ปีเกิด<sup class="error">*</sup></label>
                                 <input type="text" class="form-control" id="dob2" name="dob2" placeholder="วัน เดือน ปีเกิด" required>
                                 <br/>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-3">
                                 <label for="gender2">เพศ<sup class="error">*</sup></label>
                                 <input type="text" class="form-control" id="gender2" name="gender2" placeholder="เพศ" required>
                                 <br/>

@@ -10,12 +10,6 @@ class RegisterCompetition extends BD_Controller {
 
 	public function index()
 	{
-        // $this->load->view('admin/layout/head');
-		// $this->load->view('admin/layout/header');
-		// $this->load->view('admin/layout/left-menu');
-		// $this->load->view('admin/competition/content');
-		// $this->load->view('admin/layout/footer');
-		// $this->load->view('admin/layout/foot');
 		$this->load->view('user/layout/head');
 		$this->load->view('user/layout/header');
 		$this->load->view('user/layout/left-menu');
@@ -27,11 +21,11 @@ class RegisterCompetition extends BD_Controller {
 	
 	public function editCompetition()
 	{
-        $this->load->view('user/layout/head');
-		$this->load->view('user/layout/header');
-		$this->load->view('user/layout/left-menu');
+        $this->load->view('user/competition/edit/layout/head');
+		$this->load->view('user/competition/edit/layout/header');
+		$this->load->view('user/competition/edit/layout/left-menu');
 		$this->load->view('user/competition/edit/content');
-		$this->load->view('user/layout/footer');
-        $this->load->view('user/layout/foot');
+		$this->load->view('user/competition/edit/layout/footer');
+        $this->load->view('user/competition/edit/layout/foot');
     }
 }
