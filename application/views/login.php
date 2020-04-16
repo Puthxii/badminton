@@ -32,33 +32,33 @@
 </head>
 <body class="hold-transition login-page">
 <div class="login-box">
-  <div class="login-logo">
+  <!-- <div class="login-logo">
     <a href="<?php echo base_url(); ?>#"><b>Admin</b>LTE</a>
-  </div>
+  </div> -->
   <!-- /.login-logo -->
   <div class="login-box-body">
-    <p class="login-box-msg">Sign in to start your session</p>
+    <p class="login-box-msg">เข้าสู่บัญชีของคุณ</p>
 
     <form action="<?php echo base_url(); ?>auth/login" method="post" id="frm-login">
       <div class="form-group has-feedback">
-        <input type="text" class="form-control" placeholder="Username" name="txt-username" required>
+        <input type="text" class="form-control" placeholder="อีเมล" name="txt-username" required>
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="Password" name="txt-password" required>
+        <input type="password" class="form-control" placeholder="รหัสผ่าน" name="txt-password" required>
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
       <div class="row">
         <div class="col-xs-8">
           <div class="checkbox icheck">
             <label>
-              <input type="checkbox"> Remember Me
+              <input type="checkbox"> ให้ฉันอยู่ในระบบ
             </label>
           </div>
         </div>
         <!-- /.col -->
         <div class="col-xs-4">
-          <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+          <button type="submit" class="btn btn-primary btn-block btn-flat">เข้าสู่ระบบ</button>
         </div>
         <!-- /.col -->
       </div>
