@@ -16,6 +16,7 @@
           <ul class="treeview-menu">
             <li ><a href="<?php echo base_url(); ?>approve"><i class="fa fa-circle-o"></i>Approve</a></li>
             <li class="active"><a href="<?php echo base_url(); ?>definehand"><i class="fa fa-circle-o"></i>Define hand</a></li>
+            <li><a href="<?php echo base_url(); ?>tournament"><i class="fa fa-circle-o"></i>Tournament</a></li>
           </ul>
         </li>
       </ul>
