@@ -3,7 +3,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-        Register for the competition
+        สมัครการแข่งขัน
         <small>walailak university</small>
       </h1>
     </section>
@@ -16,7 +16,7 @@
                 <!-- general form elements -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <h3 class="box-title">สมัครการแข่งขัน</h3>
+                        <h3 class="box-title">การแข่งขันแบดมินตัน : ยืดเส้นสู้โควิด-19</h3>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
@@ -221,8 +221,8 @@
                         </div>
                         <!-- /.box-body -->
                         <div class="box-footer">
-                        <a href="<?php echo base_url('controllers/RegisterCompetition/index') ?>" type="button" class="btn btn-default">Cancel</a>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                        <a href="<?php echo base_url('controllers/RegisterCompetition/index') ?>" type="button" class="btn btn-default">ยกเลิก</a>
+                            <button type="submit" class="btn btn-primary">บันทึก</button>
                         </div>
                     </form>
                 </div>

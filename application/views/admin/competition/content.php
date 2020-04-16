@@ -17,7 +17,7 @@
               <h3 class="box-title">การแข่งขันแบดมินตัน : ยืดเส้นสู้โควิด-19</h3>
               <div class="box-tools">
                 <div class="input-group input-group-sm hidden-xs" style="width: 150px;">
-                  <input type="text" name="table_search" class="form-control pull-right" placeholder="Search">
+                  <input type="text" name="table_search" class="form-control pull-right" placeholder="ค้นหา">
 
                   <div class="input-group-btn">
                     <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
@@ -44,7 +44,7 @@
                   <td>รุ่นเยาวชน</td>
                   <td>มือ N</td>
                   <td>16</td>
-                  <td><span class="label label-success">Approved</span></td>
+                  <td><span class="label label-success">อนุมัติแล้ว</span></td>
                 </tr>
                 <tr>
                   <td>14</td>
@@ -53,7 +53,7 @@
                   <td>รุ่นประชาชน</td>
                   <td>มือ N</td>
                   <td>21</td>
-                  <td><span class="label label-warning">Pending</span></td>
+                  <td><span class="label label-warning">รอดำเนินการ</span></td>
                 </tr>
                 <tr>
                   <td>17</td>
@@ -62,7 +62,7 @@
                   <td>รุ่นประชาชน</td>
                   <td>มือ P</td>
                   <td>21</td>
-                  <td><span class="label label-success">Approved</span></td>
+                  <td><span class="label label-success">อนุมัติแล้ว</span></td>
                 </tr>
                 <tr>
                   <td>19</td>
@@ -71,7 +71,7 @@
                   <td>รุ่นเยาวชน</td>
                   <td>มือ S</td>
                   <td>16</td>
-                  <td><span class="label label-danger">Denied</span></td>
+                  <td><span class="label label-danger">ไม่ผ่านการอนุมัติ</span></td>
                 </tr>
               </tbody></table>
             </div>
