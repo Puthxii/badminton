@@ -11,12 +11,22 @@
     <!-- Main content -->
     <section class="content">
         <div class="row">
-        <div class="col-xs-9">
+        <div class="col-xs-12">
           <div class="box">
             <div class="box-header">
-  
-              <h1 class="box-title">รายชื่อผู้เข้าแข่งขันรุ่น: รุ่นระชาชน ประเภท: มือ N</h1><br/>
-              <h1 class="box-title">การแข่งขันแบดมินตัน : ยืดเส้นสู้โควิด-19</h1>
+            
+              <p><h1 class="box-title">รายชื่อผู้เข้าแข่งขันรุ่น: รุ่นระชาชน ประเภท: มือ N</h1></p>
+              <p><h1 class="box-title">การแข่งขันแบดมินตัน : ยืดเส้นสู้โควิด-19</h1></p>
+              
+              <p><div class="col-lg-4">
+                                <select class="form-control" id="compet_typeduo" name="compet_typeduo">
+                                    <option>จำนวนมือวาง 4 อันดับ</option>
+                                    <option>จำนวนมือวาง 6 อันดับ</option>
+                                    <option>จำนวนมือวาง 8 อันดับ</option>
+                                    <option>จำนวนมือวาง 16 อันดับ</option>
+                                </select>
+                            </div></p>
+             
 
 
               <div class="box-tools">
@@ -27,6 +37,7 @@
                     <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
                   </div>
                 </div>
+        
               </div>
             </div>
             <!-- /.box-header -->
@@ -36,19 +47,54 @@
                   <th>ลำดับ</th>
                   <th>สังกัด</th>
                   <th>ชื่อ - สกุล</th>
-                  <th>มือวาง</th>
+                  <th>มือวาง
+                  </th>
                 </tr>
                 <tr">
                   <td align="center">1</td>
                   <td >Fertig<br/><br/>Plus+</td>
                   <td>ปัญญพัฒน์ เจือบุญ<br/><br/>เก็จมณี ทองใบ</td>
-                  <td>มือวางอันดับ 1 <br/><br/> - </td>
-                </tr"> 
+                  <td><div class="col-lg-4">
+                        <select class="form-control" id="compet_typeduo" name="compet_typeduo">
+                        <option>ไม่มีอันดับ</option>
+                        <option>มือวางอันดับ 1</option>
+                        <option>มือวางอันดับ 2</option>
+                        <option>มือวางอันดับ 3</option>
+                        <option>มือวางอันดับ 4</option>
+                      </select>
+                    </div></br>
+                   </br><div class="col-lg-4">
+                      <select class="form-control" id="compet_typeduo" name="compet_typeduo">
+                          <option>ไม่มีอันดับ</option>
+                          <option>มือวางอันดับ 1</option>
+                          <option>มือวางอันดับ 2</option>
+                          <option>มือวางอันดับ 3</option>
+                          <option>มือวางอันดับ 4</option>
+                      </select>
+                    </div></td>
+                </tr> 
                 <tr>
                   <td align="center">2</td>
                   <td>Plus+<br/><br/>Get Start</td>
                   <td>ธีนพัฒน์ รัตนวงศ์<br/><br/>บุรินทร์ พันธ์ชาติ</td>
-                  <td> - <br/><br/> มือวางอันดับ 2</td>
+                  <td><div class="col-lg-4">
+                        <select class="form-control" id="compet_typeduo" name="compet_typeduo">
+                        <option>ไม่มีอันดับ</option>
+                        <option>มือวางอันดับ 1</option>
+                        <option>มือวางอันดับ 2</option>
+                        <option>มือวางอันดับ 3</option>
+                        <option>มือวางอันดับ 4</option>
+                      </select>
+                    </div></br>
+                   </br><div class="col-lg-4">
+                      <select class="form-control" id="compet_typeduo" name="compet_typeduo">
+                          <option>ไม่มีอันดับ</option>
+                          <option>มือวางอันดับ 1</option>
+                          <option>มือวางอันดับ 2</option>
+                          <option>มือวางอันดับ 3</option>
+                          <option>มือวางอันดับ 4</option>
+                      </select>
+                    </div></td>
                 </tr>
 
                 
