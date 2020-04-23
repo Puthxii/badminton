@@ -1,6 +1,12 @@
 <script>
         $(function() {
-
+          
+  
+            $('#compettype').change(function(){
+                $('.colors').hide();
+                $('#' + $(this).val()).show();
+            });
+ 
             $('#regis-compet').validate({
                 rules: {
 
